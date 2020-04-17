@@ -38,7 +38,6 @@ sidebar:
         link:
 
 career-profile:
-    title: "个人简介"
     summary: |
       I am a researcher major in computational condensed matter physics.
 education:
@@ -57,7 +56,6 @@ education:
         for physics major students in those 5 years.
           - GPA: 3.64/4.0
 experiences:
-    title: "工作经历"
     - role: Postdoctoral Researcher
       time: 2017 - Present
       company: Institute of Semiconductors, Chinese Academy of Sciences, Beijing
@@ -72,7 +70,6 @@ experiences:
         the transport phenomenon in large-scale system which contains more than 
         serveral thousands atoms.
 projects:
-    title: "参与项目"
     intro:
     assignments:
       - title: PWtransport
@@ -81,7 +78,6 @@ projects:
         DFT calculation and the original PEtot code."
 
 publications:
-    title: "发表论文"
     intro:
     papers:
       - title: "Large-scale <i>ab initio</i> quantum transport simulation of nanosized 
@@ -138,8 +134,6 @@ publications:
         conference: "Physica E: Low-dimensional Systems and Nanostructures 59 (2014), 60"
 
 skills:
-    title: "计算机技能"
-
     toolset:
       - name: Linux
         level: 75%
