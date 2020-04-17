@@ -39,43 +39,36 @@ sidebar:
 
 career-profile:
     summary: |
-      I am a researcher major in computational condensed matter physics.
+      我目前在北京中科院半导体所进行博士后研究工作，主要研究方向为计算凝聚态物理。
 education:
-    - degree: PhD in Condensed Matter Physics
-      university: Peking University
+    - degree: 凝聚态物理专业博士
+      university: 北京大学
       time: 2012 - 2017
       details: |
-        My advisor is Porf. Jing Lu. My research interest is in the study of the 
-        electronic and transport properties of low dimensional materials by using 
-        the first-principles calculations.
-    - degree: BSc in Material Chemistry
-      university: Peking University
+        我的导师是吕劲副教授，主要研究方向是用第一性原理方法研究二维材料的电子和输运性质。
+    - degree: 材料化学专业学士
+      university: 北京大学
       time: 2007 - 2012
       details: |
-        Besides the chemical courses, I also completed all the required courses 
-        for physics major students in those 5 years.
+        除去化学专业课程外，在这五年中我还完成了物理学专业的必修课。
           - GPA: 3.64/4.0
 experiences:
-    - role: Postdoctoral Researcher
-      time: 2017 - Present
-      company: Institute of Semiconductors, Chinese Academy of Sciences, Beijing
+    - role: 博士后
+      time: 2017 至今 
+      company: 中国科学院半导体研究所，北京
       details: |
-        My advisor is Dr. Xiangwei Jiang. My research interest is in the development 
-        of the transport code for large-scale system.
-    - role: Visiting Researcher
+        我的合作导师是李树深院士和姜向伟副研究员，我的主要研究领域是发展针对大规模体系的输运模拟软件。
+    - role: 访问学者
       time: 2017 - 2019
-      company: Lawrence Berkeley National Laboratory, Berkeley, CA
+      company: 劳伦斯伯克利国家实验室，美国加州伯克利
       details: |
-        My advisor is Dr. Lin-Wang Wang. We develop a ab initio code to suimulate 
-        the transport phenomenon in large-scale system which contains more than 
-        serveral thousands atoms.
+        我的合作导师是汪林望研究员，我们发展了一套可以研究数千原子体系的第一性原理量子输运模拟软件。
 projects:
     intro:
     assignments:
       - title: PWtransport
         link: "https://github.yemeng.site/PWtransport/"
-        tagline: "A quantum transport code based on plane wave pseudopotential 
-        DFT calculation and the original PEtot code."
+        tagline: "一个基于平面波赝势密度泛函计算和PEtot软件的量子输运模拟软件。"
 
 publications:
     intro:
@@ -151,4 +144,4 @@ skills:
         level: 80%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    由<a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>设计
