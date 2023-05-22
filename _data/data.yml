@@ -1,27 +1,33 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: 叶萌
-    tagline: 计算凝聚态物理专业博士后
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: 研究方向：计算凝聚态物理
+    avatar: photo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: yemeng@semi.ac.cn
     phone: +86 13810261690
+    timezone: 东八区
+    citizenship:
     website: www.yemeng.site #do not add http://
     linkedin:
+    xing:
     github: yemeng77
+    telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket: yemeng77
     twitter: '@yemeng77'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf:
 
     languages:
       - idiom: 普通话
@@ -36,51 +42,82 @@ sidebar:
 
       - item: 足球
         link:
-
+ 
 career-profile:
+    title: 个人简介
     summary: |
       我目前在北京中科院半导体所担任助理研究员，主要研究方向为计算凝聚态物理。
 education:
-    - degree: 凝聚态物理专业博士
-      university: 北京大学
-      time: 2012 - 2017
-      details: |
-        我的导师是吕劲副教授，主要研究方向是用第一性原理方法研究二维材料的电子和输运性质。
-    - degree: 材料化学专业学士
-      university: 北京大学
-      time: 2007 - 2012
-      details: |
-        除去化学专业课程外，在这五年中我还完成了物理学专业的必修课。
-          - GPA: 3.64/4.0
+    title: 教育背景
+    info:
+      - degree: 凝聚态物理专业博士
+        university: 北京大学
+        time: 2012 - 2017
+        details: |
+          我的导师是吕劲副教授，主要研究方向是用第一性原理方法研究二维材料的电子和输运性质。
+      - degree: 材料化学专业学士
+        university: 北京大学
+        time: 2007 - 2012
+        details: |
+          除去化学专业课程外，在这五年中我还完成了物理学专业的必修课。
+            - GPA: 3.64/4.0
 experiences:
-    - role: 助理研究员
-      time: 2020 至今 
-      company: 中国科学院半导体研究所，北京
-      details: |
-    - role: 博士后
-      time: 2017 - 2020 
-      company: 中国科学院半导体研究所，北京
-      details: |
-        我的合作导师是李树深院士和姜向伟副研究员，我的主要研究领域是发展针对大规模体系的输运模拟软件。
-    - role: 访问学者
-      time: 2017 - 2019
-      company: 劳伦斯伯克利国家实验室，美国加州伯克利
-      details: |
-        我的合作导师是汪林望研究员，我们发展了一套可以研究数千原子体系的第一性原理量子输运模拟软件。
+    title: 工作经历
+    info:
+      - role: 助理研究员
+        time: 2020 至今 
+        company: 中国科学院半导体研究所，北京
+        details: |
+      - role: 博士后
+        time: 2017 - 2020 
+        company: 中国科学院半导体研究所，北京
+        details: |
+          我的合作导师是李树深院士和姜向伟副研究员，我的主要研究领域是发展针对大规模体系的输运模拟软件。
+      - role: 访问学者
+        time: 2017 - 2019
+        company: 劳伦斯伯克利国家实验室，美国加州伯克利
+        details: |
+          我的合作导师是汪林望研究员，我们发展了一套可以研究数千原子体系的第一性原理量子输运模拟软件。
 projects:
+    title: 科研项目
     intro:
     assignments:
       - title: PWtransport
         link: "https://github.yemeng.site/PWtransport/"
         tagline: "一个基于平面波赝势密度泛函计算和PEtot软件的量子输运模拟软件。"
 
+# oss:
+    # title: 开源软件贡献
+    # intro: >
+      # You can list your open source software contributions in this
+      # section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      # Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # contributions:
+      # - title: Tempo
+        # link: "#"
+        # tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      # - title: Atom
+        # link: "#"
+        # tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      # - title: Delta
+        # link: "#"
+        # tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 publications:
+    title: 发表论文
     intro:
     papers:
       - title: "Large-scale first-principles quantum transport simulations using plane wave basis set on high performance computing platforms"
-        link: " https://doi.org/10.1016/j.cpc.2020.107737"
+        link: "https://doi.org/10.1016/j.cpc.2020.107737"
         authors: "<b>Meng Ye</b>, Xiangwei Jiang, Shu-Shen Li, Lin-Wang Wang"
         conference: "<i>Computer Physics Communications</i> <b>260</b>, 107737 (2021)"
+      
+      - title: "Large scale plane-wave based density-functional theory simulations for electronic devices"
+        link: "https://doi.org/10.1109/IEDM13553.2020.9372113"
+        authors: "Lin-Wang Wang, <b>Meng Ye</b>, Yue-Yang Liu, Xiangwei Jiang"
+        conference: "<i>2020 IEEE International Electron Devices Meeting (IEDM)</i>, 22.3.1-22.3.4 (2020)"
 
       - title: "Large-scale <i>ab initio</i> quantum transport simulation of nanosized 
         copper interconnects: the effects of defects and quantum interferences"
@@ -136,6 +173,8 @@ publications:
         conference: "<i>Physica E: Low-dimensional Systems and Nanostructures</i> <b>59</b>, 60-65 (2014)"
 
 skills:
+    title: 计算机技能
+
     toolset:
       - name: Linux
         level: 75%
@@ -153,4 +192,4 @@ skills:
         level: 80%
 
 footer: >
-    由<a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>设计
+    由<i class="fas fa-heart"></i><a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>设计
